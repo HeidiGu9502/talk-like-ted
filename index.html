@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f3f2e9" />
+    <meta name="description" content="起念：用几分钟，把模糊想法练成清楚表达。" />
+    <title>起念 Qinian · 把想法说清楚</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="起念首页"><span class="brand-mark">念</span><span>起念<small>QǐNiàn</small></span></a>
+        <div class="topbar-right"><span class="free-label">免费体验</span><button class="icon-button" data-view="settings" aria-label="打开设置" title="设置">⚙</button></div>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+
+      <nav class="bottom-nav" aria-label="主导航">
+        <button data-view="home" class="nav-item active"><span>⌂</span>首页</button>
+        <button data-view="history" class="nav-item"><span>▤</span>想法库</button>
+        <button data-view="badges" class="nav-item"><span>✳</span>成就</button>
+      </nav>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
